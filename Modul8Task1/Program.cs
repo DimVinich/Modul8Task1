@@ -8,12 +8,11 @@ namespace Modul8Task1
     {
         static void Main(string[] args)
         {
-            string folder = @"D:\Temp";
             DateTime oldDate = DateTime.Now.AddMinutes(-30);
 
             // Ввод и провека папки на существование
             Console.WriteLine("Введите директорию для зачистки :");
-            folder = Console.ReadLine();
+            string folder = Console.ReadLine();
 
             if ( !Directory.Exists(folder))
             {
