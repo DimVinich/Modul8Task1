@@ -16,7 +16,7 @@ namespace Modul8Task1
 
             if ( !Directory.Exists(folder))
             {
-                Console.WriteLine(" Вы ввели не сущестdующую директорию. Программа прекращает свою работу.");
+                Console.WriteLine(" Вы ввели не существующую директорию. Программа прекращает свою работу.");
                 Console.ReadKey();
                 return;
             }
