@@ -21,7 +21,7 @@ namespace Modul8Task1
                 return;
             }
 
-            Console.WriteLine("Начата зачистка директории {0} от файлов и директорий старше {1} ", folder, oldDate);
+            Console.WriteLine("Начата зачистка директории {0} от файлов и директорий старше {1} минут", folder, oldDate);
 
             DeleteFolder(folder, oldDate);
 
